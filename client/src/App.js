@@ -12,7 +12,7 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
           <Link to="/">Home</Link>
-          <Link to="/otherpage">Other page here</Link>
+          <Link to="/otherpage">Other page here...</Link>
           <div>
             <Route exact path="/" component={Fib}/>
             <Route path="/otherpage" component={OtherPage}/>
