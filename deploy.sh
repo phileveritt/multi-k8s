@@ -1,9 +1,9 @@
-docker build -t phileveritt/multi-client:latest -t phileveritt/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t phileveritt/multi-server:latest -t phileveritt/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t phileveritt/multi-worker:latest -t phileveritt/multi-worker:$SHA -f ./worker/Dockerfile ./worker
-docker push phileveritt/multi-client:latest
-docker push phileveritt/multi-server:latest
-docker push phileveritt/multi-worker:latest
+docker build -t peveritt/multi-client:latest -t peveritt/multi-client:$SHA -f ./client/Dockerfile ./client
+docker build -t peveritt/multi-server:latest -t peveritt/multi-server:$SHA -f ./server/Dockerfile ./server
+docker build -t peveritt/multi-worker:latest -t peveritt/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+docker push peveritt/multi-client:latest
+docker push peveritt/multi-server:latest
+docker push peveritt/multi-worker:latest
 docker push peveritt/multi-client:$SHA
 docker push peveritt/multi-server:$SHA
 docker push peveritt/multi-worker:$SHA
